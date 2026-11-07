@@ -63,3 +63,7 @@ Scripts, logs, samples, hashes and isolated generated artifacts remain in `audit
 - Recorded standing user authorization: commit coherent progress when reasonable, push at completed steps, preserve ignore/private-data protections, and checkpoint after substantial work plus roughly every 10–15 minutes during sustained work or immediately before usage cutoff.
 - Linked instructions from the remediation plan. This step changes documentation only; remediation remains unimplemented. Branch: `main`; documentation commit/push is the next action. Verify Git history/remote status on resumption rather than assuming an in-progress push succeeded.
 - Next implementation action, when authorized: Phase 0 private snapshot/restore, then M01-A stage contracts/map and D01 protection.
+
+## Remediation branch — 2026-11-07
+- Created `remediation` from clean `main` at `97e4eb1` at the user's request. Future remediation work belongs on this branch; no implementation has started.
+- Next: Phase 0 private snapshot/restore, then M01-A contracts/map and D01 protection when implementation is authorized. Verify upstream push status with Git on resumption.
