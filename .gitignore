@@ -1,0 +1,21 @@
+# Local environment and caches
+CompleteQuranVocabulary/
+__pycache__/
+.DS_Store
+.env
+.env.*
+# Source datasets and generated artifacts: redistribution not cleared
+*.csv
+*.jsonl
+*.parquet
+*.pkl
+*.csv.gz
+*.apkg
+*.mp3
+quran*.txt
+anki_media*/
+# Audit evidence includes derived content and disposable collections
+audit_evidence/
+# Inactive experiments
+03_build_vocabulary copy.ipynb
+test.ipynb
